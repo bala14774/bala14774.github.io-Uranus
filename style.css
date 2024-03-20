@@ -1,0 +1,249 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.content{
+
+    font-family: "Mea Culpa", cursive;
+    font-weight: 500;
+    font-size: 38px;
+    font-style: normal;
+    color: red;
+
+    
+
+  }
+
+  .content1
+  {
+
+    font-family: "Mea Culpa", cursive;
+    font-weight: 550;
+    font-size: 42px;
+    font-style: normal;
+    color: lime;
+    
+    margin: 20px;
+  }
+
+  .content2
+  {
+
+    font-family: "Mea Culpa", cursive;
+    font-weight: 480;
+    font-size: 40px;
+    font-style: normal;
+    color: lime;
+    
+    margin: 20px;
+  }
+
+ 
+
+.urans
+{
+width: 100%;
+height: 170px;
+object-fit: cover;
+display: block;
+
+
+}
+
+
+
+
+
+
+
+
+
+.bounce{
+height: 300px;
+width: 350px;
+object-fit: cover;
+animation-name: bounce;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+
+}
+
+
+@keyframes bounce {
+0%{
+  transform: translateY(0);
+}
+50%{
+  transform: translateY(-25px)
+}
+100%{
+  transform: translateY(0);
+}
+}
+
+.wooble
+{
+height: 300px;
+width: 350px;
+object-fit: cover;
+animation-name: wooble;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+}
+
+@keyframes wooble {
+from {
+  transform: rotateZ(0deg);
+}
+15%{
+  transform: rotateZ(-15deg);
+}
+30%{
+  transform: rotateZ(10deg);
+}
+45%{
+  transform: rotateZ(-10deg);
+}
+60%{
+  transform: rotateZ(5deg);
+}
+100%{
+  transform: rotateZ(0deg);
+}
+}
+
+
+
+.allimage {
+display: block;
+width: 100%;
+height: 300px;
+border-radius: 50%;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flip-outer{
+height: 400px;
+width: 600px;
+margin: 10px auto;
+border-radius: 50px;
+
+
+}
+
+
+
+.flip-inner2{
+
+margin: 10px auto;
+height: 400px;
+width: 600px;
+background-image: url('../images/chakras.png');
+cursor: pointer;
+transition: transform 0.6s ;
+border-radius: 50px;
+
+}
+
+.flip-inner2:hover{
+transform: rotateY(180deg);
+transform-style: preserve-3d;
+
+background-image: url('../images/lightgalaxy.jpg');
+object-fit: cover;
+}
+
+
+
+.footer
+{
+max-width: 100%;
+height: auto;
+padding: 40px;
+
+
+display: flex;
+color: white;
+justify-content: space-evenly;
+
+
+background-image:url("./blackgalaxy.jpg");
+margin: 0;
+object-fit: cover;
+
+
+}
+
+.footer ul li{
+list-style-type: none;
+padding: 5px;
+}
+
+.footer ul li a{
+text-decoration: none;
+color: greenyellow;
+
+}
+
+
+
+.urans{
+height: 170px;
+width: 100%;
+
+
+}
+
+.uransimage
+{
+height: 170px;
+width: 100%;
+object-fit: cover;
+}
+
+
+
+
+
+.main-container
+{
+width: 100%;
+height: auto;
+background-image: url("./uranasgalaxy.jpg");
+object-fit: cover;
+margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
